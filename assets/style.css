@@ -74,12 +74,18 @@ main {
     border: 2px solid rgba(255, 0, 0, 0);
 }
 
-.login_label span {
+.span {
     position: absolute;
     text-transform: uppercase;
     color: #494949;
     margin: 20px;
     cursor: text;
+    transition: all 200ms ease;
+}
+
+.span-active {
+    font-size: 0.7em;
+    margin: 10px 0 10px 12px;
 }
 
 .input:focus {
